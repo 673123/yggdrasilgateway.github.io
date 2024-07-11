@@ -15,7 +15,7 @@ services:
     volumes:
       - ./mysql-storage:/var/lib/mysql
   gateway:
-    image: karlatemp:yggdrasil-gateway
+    image: karlatemp/yggdrasil-gateway:nightly
     restart: always
     environment:
       DATABASE_MYSQL_JDBC: "jdbc:mysql://mariadb:3306/gateway"
