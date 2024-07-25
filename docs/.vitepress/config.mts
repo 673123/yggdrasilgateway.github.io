@@ -33,6 +33,11 @@ export default defineConfig({
                         {link: '/install/setup-authlib-injector', text: 'Authlib Injector'},
                     ]
                 },
+                {
+                    text: '数据转移', items: [
+                        {link: '/install/transfer-player.md', text: '玩家数据信息转移'}
+                    ]
+                },
             ]
         },
 
