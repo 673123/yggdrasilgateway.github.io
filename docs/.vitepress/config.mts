@@ -26,6 +26,7 @@ export default defineConfig({
                     text: '初始化 Yggdrasil Gateway', items: [
                         {link: '/install/admin-init', text: '默认管理员账号登入'},
                         {link: '/install/remote-services', text: '远程树初始化'},
+                        {link: '/install/net-public', text: '部署至公网'},
                     ],
                 },
                 {
